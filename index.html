@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Cache-control" content="public, max-age=31536000" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NA Sports Academy</title>
+  <link rel="icon" href="Image-1/fav icon.png" />
+  <link rel="preload" as="image" href="Image-1/sport icon.png" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("active");
+      document.getElementById("nav-right").classList.toggle("active");
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-left">
+        <a href="index.html" class="brand">
+          <img src="Image-1/sport icon.png" alt="NA.Sports Logo" class="logo-image" width="50" height="50" />
+          NA Sports Academy
+        </a>
+      </div>
+
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="indor.html">Indoor</a></li>
+        <li><a href="outdoor.html">Outdoor</a></li>
+        <li><a href="history.html">History</a></li>
+      </ul>
+
+      <div class="nav-right" id="nav-right">
+        <a href="register.html" class="btn-register">Register</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="section-container">
+      <h1>NA Sports Academy</h1>
+      <h2>Your Best Place To Visualize And Enjoy Playing Different Sports.</h2>
+      <p class="lead hide-on-small">
+        NA.Sports is the best way to organize and enjoy the feel of playing and stepping into the world of virtual
+        sports — and shop for the ones you want.
+      </p>
+      <a href="register.html" class="btn-hero">Get Started</a>
+    </div>
+  </section>
+
+  <section id="services" class="section">
+    <div class="container grid-container">
+      <a href="aboutus.html" class="card-link">
+        <div class="card">
+          <img src="Image-1/about us.jpg" alt="About Us Image"/>
+          <h3>About Us</h3>
+          <p>20 Hundred Sports. 10,000 Arcade And Sports Activities, Shop If You Want.</p>
+        </div>
+      </a>
+
+      <a href="indor.html" class="card-link">
+        <div class="card">
+          <img src="Image-1/badminton.jpg" alt="Indoor Sports"/>
+          <h3>Indoor</h3>
+          <p>An Extensive Indoor Clothing Store With Discounted Price.</p>
+        </div>
+      </a>
+
+      <a href="outdoor.html" class="card-link">
+        <div class="card">
+          <img src="Image-1/Outdoor games.jpg" alt="Outdoor Sports"/>
+          <h3>Outdoor</h3>
+          <p>A Coolest and Trending Clothing Store with amazing styles.</p>
+        </div>
+      </a>
+
+      <a href="history.html" class="card-link">
+        <div class="card">
+          <img src="Image-1/history.jpg" alt="History"/>
+          <h3>History</h3>
+          <p>Dive into the ocean of trending styles and make your impact.</p>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <div class="container">
+      <h2>What Our Members Say</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial-item">
+          <p>"Great atmosphere, professional coaches, and amazing facilities! Highly recommend NA Sports Academy."</p>
+          <span>- Eliza</span>
+        </div>
+        <div class="testimonial-item">
+          <p>"NA Sports helped me improve my skills and meet fellow sports lovers. It's like a second home!"</p>
+          <span>- Gullu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h2 class="footer-title">NA Sports Academy</h2>
+        <br />
+        <p class="footer-description">
+          Welcome to NA Sports Academy - Where Passion Meets Play!<br />
+          From indoor chess to outdoor football, NA.Sports is your one-stop destination. Join us and enjoy the journey!
+          At NA.Sports, we believe sports are more than just games - they're a way to stay fit, build friendships, learn
+          discipline, and have fun!
+          <br /><br />From the intense concentration of indoor games like chess, carrom, and table tennis, to the thrill
+          of outdoor
+          sports like cricket, football, volleyball, and athletics
+          Join us to explore sports, participate in events, learn the rules, improve your skills, and most importantly —
+          enjoy the journey!
+        </p>
+      </div>
+
+      <section class="contact-section">
+        <h2>LET'S CONNECT</h2>
+
+        <div class="contact-box">
+          <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com" class="social-icon" aria-label="Facebook">🌐 Facebook</a>
+            <a href="https://twitter.com" class="social-icon" aria-label="Twitter">🐦 Twitter</a>
+            <a href="https://www.instagram.com" class="social-icon" aria-label="Instagram">📸 Instagram</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 <strong>NA Sports Academy</strong> | Built for every sports lover 🌟</p>
+    </div>
+  </footer>
+</body>
+
+</html>

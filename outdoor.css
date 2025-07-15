@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header & Navigation */
+.main-header {
+    background-color: #0b3d2e;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #116b4d;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('Image-1/outdoor\ bckgrnd.jpg') no-repeat center/cover;
+    padding: 19rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-primary {
+    background-color: #e3f2e4;
+    color: black;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #019170;
+}
+
+/* Products Section */
+.products {
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.product-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.product-card h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.product-card p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.product-card button {
+    /* background-color: #0984e3; */
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+/* .product-card button:hover {
+    background-color: #065cb6;
+} */
+
+/* Offers Section */
+.offers {
+    background-color: #e6fdff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.offers h2 {
+    color: #d63031;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.offers p {
+    margin-bottom: 1.5rem; /* Ensure gap before the button */
+    font-size: 1.1rem;
+}
+
+.btn-secondary {
+    background-color: #fdcb6e;
+    color: #000;
+    padding: 10px 20px;
+    margin-top: 0; /* Already using margin-bottom in <p> */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: background 0.3s;
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background-color: #e1b43c;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+}

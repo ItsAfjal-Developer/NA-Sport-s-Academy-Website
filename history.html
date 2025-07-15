@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>N A Sports Academy - History</title>
+  <link rel="stylesheet" href="history.css">
+  <link rel="icon" href="Image-1/fav icon.png">
+</head>
+
+<body>
+  <section class="academy-history">
+    <h2>🏆 Our History</h2>
+    <p class="intro">
+      NA Sports Academy was founded with the vision of creating a world-class training environment for aspiring
+      athletes. Since our humble beginnings, we've been dedicated to nurturing talent, discipline, and passion in every
+      sportsperson who walks through our doors.
+    </p>
+
+    <div class="timeline">
+      <div class="event animate">
+        <h3>2010 - The Beginning</h3>
+        <p>What started as a small indoor badminton court soon turned into a community hub for sports lovers across the
+          city.</p>
+      </div>
+
+      <div class="event animate">
+        <h3>2014 - Expansion</h3>
+        <p>New facilities were added including squash courts, table tennis arenas, and a fully equipped gymnasium.</p>
+      </div>
+
+      <div class="event animate">
+        <h3>2018 - National Recognition</h3>
+        <p>Our athletes began competing and excelling at state and national levels, earning N A Academy a name in the
+          sports community.</p>
+      </div>
+
+      <div class="event animate">
+        <h3>2023 - The Future Begins</h3>
+        <p>With upgraded infrastructure and elite coaching programs, we aim to train tomorrow's champions in multiple
+          indoor sports disciplines.</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+      { threshold: 0.2 });
+    document.querySelectorAll('.animate').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+
+</html>
