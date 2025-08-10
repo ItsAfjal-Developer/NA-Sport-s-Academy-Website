@@ -38,4 +38,7 @@ Below is a Preview of **NA-Sport-s-Academy-Website**, Showcasing the Layout and 
 The Design focuses on Clean Structure, Responsiveness and Modern Styling.
 
 - **Home Page**
-<img src="Image-1/Screenshot-1.png" alt="Landing Page - Honor Watch Preview" width="100%" />
+<img src="Image-1/Screenshot-1.png" alt="NA-Sport-s-Academy-Website" width="100%" />
+
+- **Outdoor Page**
+<img src="Image-1/Screenshot-3.png" alt="NA-Sport-s-Academy-Website" width="100%" />
