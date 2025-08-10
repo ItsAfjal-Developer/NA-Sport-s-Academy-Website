@@ -42,3 +42,6 @@ The Design focuses on Clean Structure, Responsiveness and Modern Styling.
 
 - **Outdoor Page**
 <img src="Image-1/Screenshot-3.png" alt="NA-Sport-s-Academy-Website" width="100%" />
+
+- **Indoor Page**
+<img src="Image-1/Screenshot-2.png" alt="NA-Sport-s-Academy-Website" width="100%" />
