@@ -34,11 +34,8 @@ It is designed to provide users with an Engaging Experience, Featuring Clean Lay
 
 ## Screenshots
 
-Below is a Preview of **Landing Page - Honor Watch**, Showcasing the Layout and Styling implemented Using pure HTML , CSS and Javascript. 
+Below is a Preview of **NA-Sport-s-Academy-Website**, Showcasing the Layout and Styling implemented Using pure HTML , CSS and Javascript. 
 The Design focuses on Clean Structure, Responsiveness and Modern Styling.
 
-- **Dark Mode** - Honor Watch 
-<img src="images/Screenshot 1.png" alt="Landing Page - Honor Watch Preview" width="100%" />
-
-- **Light Mode** - Honor Watch 
-<img src="images/Screenshot 2.png" alt="Landing Page - Honor Watch Preview" width="100%" />
+- **Home Page**
+<img src="Image-1/Screenshot-1.png" alt="Landing Page - Honor Watch Preview" width="100%" />
