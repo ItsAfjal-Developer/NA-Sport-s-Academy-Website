@@ -1,5 +1,5 @@
-# **NA-Sport-s-Academy-Website**
-- **NA Sports Academy** is a Modern, Responsive Sports-themed Website that showcases various Sports Activities, Facilities and Events.  
+# **NA Sports Academy Website**
+It's a Modern, Responsive Sports-themed Website that showcases various Sports Activities, Facilities and Events.  
 It is designed to provide users with an Engaging Experience, Featuring Clean Layouts, Attractive Visuals and Easy Navigation.
 
 ## Features
